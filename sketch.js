@@ -48,12 +48,10 @@ function draw(){
   console.log(trex.y)
   
   //pular quando tecla de espaço for pressionada
-  if(keyDown("space")){
-    trex.velocityY = - 10  ;
-  }
+
   
   //gravidade sendo adicionada 
- trex.velocityY = trex.velocityY + 0.5;
+
   
  //impedir que o trex caia
   trex.collide(edges[3])
